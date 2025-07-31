@@ -1,3 +1,6 @@
-# Crypto AI HFT Bot
+## Nocturne
 
-A command-line bot that trades crypto using rule-based or AI strategies, with feedback loops powered by LLMs.
+### Crypto AI HFT Bot
+
+A command-line crypto trading bot designed for high-frequency trading (HFT) research and experimentation.  
+Nocturne executes rule-based or AI-driven strategies on tick or candle data, with feedback loops powered by LLMs to analyze trade performance and suggest strategy refinements.
