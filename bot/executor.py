@@ -1,3 +1,12 @@
+from utils.logger import get_logger
+
+
+logger = get_logger()
+
 def execute_trade(signal):
-    # TODO: mock or real trade execution via ccxt or API
-    print(f"Executing: {signal}")
+    if signal == "buy":
+        logger.info("Executing BUY trade")
+    elif signal == "sell":
+        logger.info("Executing SELL trade")
+    else:
+        logger.info("Holding position")
