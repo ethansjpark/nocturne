@@ -1,0 +1,6 @@
+model:
+  type: dummy
+  lr: 0.001
+strategy:
+  type: sma
+  window: 20

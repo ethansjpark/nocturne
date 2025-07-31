@@ -1,0 +1,6 @@
+# requirements.txt
+ccxt
+pymongo
+openai
+click
+pyyaml
